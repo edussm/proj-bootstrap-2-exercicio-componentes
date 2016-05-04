@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="facpoli.ico">
+
+    <title>Exemplo - Barra de Navegação</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navegação</span>
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+          <a class="navbar-brand" href="#">Tecnologias web</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Principal</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Acão 1</a></li>
+                <li><a href="#">Acão 2</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Cabeçalho</li>
+                <li><a href="#">Acão 3</a></li>
+                <li><a href="#">Acão 4</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="page-header">
+        <h2>Formulário</h2>
+      </div>
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label for="email" class="col-sm-3 control-label">e-mail</label>
+          <div class="col-sm-9">
+            <input type="email" class="form-control" id="email" placeholder="e-mail">
+            <p class="help-block">Informe seu e-mail</p>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputPassword" class="col-sm-3 control-label">Senha</label>
+          <div class="col-sm-9">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+            <p class="help-block">Informe sua senha</p>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputFile" class="col-sm-3 control-label">Foto</label>
+          <div class="col-sm-9">
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Tamanho máximo 640x480px</p>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Preferências</label>
+          <div class="col-sm-9">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="optionsRadios" id="optionsCheckbox1" value="option1" checked>
+                Opção 1
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="optionsRadios" id="optionsCheckbox2" value="option2">
+                  Opção 2
+                </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Sexo</label>
+          <div class="col-sm-9">
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Masculino
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Feminino
+              </label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-default pull-right">Criar Usuário</button>
+
+      </form>
+
+    </div> <!-- /container -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">TAW 2016</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- No final do documento para que a página carregue rápido-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
